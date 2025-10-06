@@ -1,22 +1,14 @@
 <?php
+
+declare(strict_types=1);
+
 namespace Plugin\whatsappclicktochat;
 
-class Bootstrap
+use JTL\Plugin\Bootstrapper;
+
+/**
+ * Standart JTL bootstrap sınıfı.
+ */
+class Bootstrap extends Bootstrapper
 {
-	public function installed(): bool
-	{
-		return true;
-	}
-
-	public function enabled(): bool
-	{
-		return true;
-	}
-
-	public function disabled(): bool
-	{
-		return true;
-	}
 }
-
-
