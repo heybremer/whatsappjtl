@@ -6,7 +6,7 @@ Bu eklenti, JTL-Shop üzerinde tüm sayfalarda görüntülenen yüzen bir WhatsA
 
 1. Eklentiyi JTL eklenti yöneticisinden yükleyin.
 2. "Whatsapp Click To Chat" eklentisini etkinleştirin.
-3. Ayarlar sekmesinde WhatsApp telefon numaranızı ülke kodu ile birlikte girin.
+3. Eklenti yönetimi listesindeki "Ayarlar" bağlantısına tıklayarak WhatsApp telefon numaranızı ülke kodu ile birlikte girin.
 4. Dilerseniz varsayılan mesajı ve buton etiketini özelleştirin.
 
 ## Notlar
