@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jtlshopplugin>
+	<Name>Whatsapp Click To Chat (No Hook Test)</Name>
+	<Description>Upload test: minimal manifest without hooks</Description>
+	<Author>Bremer</Author>
+	<URL>https://example.com</URL>
+	<XMLVersion>100</XMLVersion>
+	<Version>0.0.1</Version>
+	<MinShopVersion>5.2.0</MinShopVersion>
+	<CreateDate>2025-10-06</CreateDate>
+	<License>MIT</License>
+	<Install />
+	<Settings>
+		<Setting>
+			<Name>whatsapp_phone</Name>
+			<Value></Value>
+			<Type>text</Type>
+			<Description>WhatsApp telefon numarası (ülke koduyla, boşluksuz)</Description>
+		</Setting>
+		<Setting>
+			<Name>default_message</Name>
+			<Value>Merhaba, bilgi almak istiyorum.</Value>
+			<Type>text</Type>
+			<Description>Varsayılan mesaj</Description>
+		</Setting>
+		<Setting>
+			<Name>enabled</Name>
+			<Value>Y</Value>
+			<Type>selectbox</Type>
+			<Description>Butonu etkinleştir</Description>
+			<Options>
+				<Option>
+					<Value>Y</Value>
+					<Name>Evet</Name>
+				</Option>
+				<Option>
+					<Value>N</Value>
+					<Name>Hayır</Name>
+				</Option>
+			</Options>
+		</Setting>
+		<Setting>
+			<Name>position</Name>
+			<Value>right</Value>
+			<Type>selectbox</Type>
+			<Description>Buton konumu</Description>
+			<Options>
+				<Option>
+					<Value>right</Value>
+					<Name>Sağ</Name>
+				</Option>
+				<Option>
+					<Value>left</Value>
+					<Name>Sol</Name>
+				</Option>
+			</Options>
+		</Setting>
+	</Settings>
+</jtlshopplugin>
+
+

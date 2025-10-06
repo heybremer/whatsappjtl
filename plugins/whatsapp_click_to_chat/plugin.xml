@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jtlshopplugin>
+	<Name>Whatsapp Click To Chat</Name>
+	<Description>Floating WhatsApp tıkla-yaz butonu (tüm sayfalar)</Description>
+	<Author>Bremer</Author>
+	<URL>https://example.com</URL>
+	<XMLVersion>100</XMLVersion>
+	<Version>1.0.0</Version>
+	<ShopVersion>5.4.0</ShopVersion>
+	<MinShopVersion>5.2.0</MinShopVersion>
+	<CreateDate>2025-10-06</CreateDate>
+	<License>MIT</License>
+	<Install>
+		<CopyDir source="frontend" dest="" />
+	</Install>
+	<Settings>
+		<Setting>
+			<Name>whatsapp_phone</Name>
+			<Value></Value>
+			<Type>text</Type>
+			<Description>WhatsApp telefon numarası (ülke koduyla, boşluksuz, örn: 905321234567)</Description>
+		</Setting>
+		<Setting>
+			<Name>default_message</Name>
+			<Value>Merhaba, bilgi almak istiyorum.</Value>
+			<Type>text</Type>
+			<Description>Varsayılan mesaj</Description>
+		</Setting>
+		<Setting>
+			<Name>enabled</Name>
+			<Value>Y</Value>
+			<Type>selectbox</Type>
+			<Description>Butonu etkinleştir</Description>
+			<Options>
+				<Option>
+					<Value>Y</Value>
+					<Name>Evet</Name>
+				</Option>
+				<Option>
+					<Value>N</Value>
+					<Name>Hayır</Name>
+				</Option>
+			</Options>
+		</Setting>
+		<Setting>
+			<Name>position</Name>
+			<Value>right</Value>
+			<Type>selectbox</Type>
+			<Description>Buton konumu</Description>
+			<Options>
+				<Option>
+					<Value>right</Value>
+					<Name>Sağ</Name>
+				</Option>
+				<Option>
+					<Value>left</Value>
+					<Name>Sol</Name>
+				</Option>
+			</Options>
+		</Setting>
+		<Setting>
+			<Name>bottom_offset</Name>
+			<Value>24</Value>
+			<Type>text</Type>
+			<Description>Alt boşluk (px)</Description>
+		</Setting>
+		<Setting>
+			<Name>theme</Name>
+			<Value>light</Value>
+			<Type>selectbox</Type>
+			<Description>Buton teması</Description>
+			<Options>
+				<Option>
+					<Value>light</Value>
+					<Name>Açık</Name>
+				</Option>
+				<Option>
+					<Value>dark</Value>
+					<Name>Koyu</Name>
+				</Option>
+			</Options>
+		</Setting>
+		<Setting>
+			<Name>size</Name>
+			<Value>normal</Value>
+			<Type>selectbox</Type>
+			<Description>Buton boyutu</Description>
+			<Options>
+				<Option>
+					<Value>normal</Value>
+					<Name>Normal</Name>
+				</Option>
+				<Option>
+					<Value>large</Value>
+					<Name>Büyük</Name>
+				</Option>
+			</Options>
+		</Setting>
+		<Setting>
+			<Name>mobile_only</Name>
+			<Value>Y</Value>
+			<Type>checkbox</Type>
+			<Description>Sadece mobilde göster</Description>
+		</Setting>
+		<Setting>
+			<Name>button_label</Name>
+			<Value>WhatsApp</Value>
+			<Type>text</Type>
+			<Description>Buton etiketi (opsiyonel)</Description>
+		</Setting>
+	</Settings>
+	<Hooks>
+		<Hook id="140">
+			<File>frontend/template/whatsapp.tpl</File>
+		</Hook>
+	</Hooks>
+</jtlshopplugin>
+
