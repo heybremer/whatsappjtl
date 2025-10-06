@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item id="whatsappclicktochat" name="Whatsapp Click To Chat" icon="icon.svg">
+        <item id="whatsappclicktochat-settings" name="Ayarlar" type="settings" />
+    </item>
+</menu>

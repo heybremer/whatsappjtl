@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jtlshopplugin>
-<<<<<<< HEAD
     <Name>Whatsapp Click To Chat</Name>
     <Description>Floating WhatsApp tıkla-yaz butonu (tüm sayfalar)</Description>
     <Author>Bremer</Author>
@@ -8,7 +7,7 @@
     <URL>https://example.com</URL>
     <XMLVersion>100</XMLVersion>
     <PluginID>whatsappclicktochat</PluginID>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <CreateDate>2025-10-06</CreateDate>
     <ShopVersion>5.4.0</ShopVersion>
     <MinShopVersion>500</MinShopVersion>
@@ -60,70 +59,4 @@
             <File>frontend/template/whatsapp.tpl</File>
         </Hook>
     </Hooks>
-=======
-	<Name>Whatsapp Click To Chat</Name>
-	<Description>Floating WhatsApp tıkla-yaz butonu (tüm sayfalar)</Description>
-	<Author>Bremer</Author>
-	<URL>https://example.com</URL>
-	<XMLVersion>100</XMLVersion>
-	<PluginID>whatsappclicktochat</PluginID>
-	<Version>1.0.0</Version>
-	<CreateDate>2025-10-06</CreateDate>
-	<MinShopVersion>500</MinShopVersion>
-	<License>MIT</License>
-	<Install>
-		<CopyDir source="frontend" dest="" />
-	</Install>
-	<Settings>
-		<Setting>
-			<Name>whatsapp_phone</Name>
-			<Value></Value>
-			<Type>text</Type>
-			<Description>WhatsApp telefon numarası (ülke koduyla, boşluksuz, örn: 905321234567)</Description>
-		</Setting>
-		<Setting>
-			<Name>default_message</Name>
-			<Value>Merhaba, bilgi almak istiyorum.</Value>
-			<Type>text</Type>
-			<Description>Varsayılan mesaj</Description>
-		</Setting>
-		<Setting>
-			<Name>position</Name>
-			<Value>right</Value>
-			<Type>selectbox</Type>
-			<Description>Buton konumu</Description>
-			<Options>
-				<Option>
-					<Value>right</Value>
-					<Name>Sağ</Name>
-				</Option>
-				<Option>
-					<Value>left</Value>
-					<Name>Sol</Name>
-				</Option>
-			</Options>
-		</Setting>
-		<Setting>
-			<Name>enabled</Name>
-			<Value>Y</Value>
-			<Type>selectbox</Type>
-			<Description>Butonu etkinleştir</Description>
-			<Options>
-				<Option>
-					<Value>Y</Value>
-					<Name>Evet</Name>
-				</Option>
-				<Option>
-					<Value>N</Value>
-					<Name>Hayır</Name>
-				</Option>
-			</Options>
-		</Setting>
-	</Settings>
-	<Hooks>
-		<Hook id="140">
-			<File>frontend/template/whatsapp.tpl</File>
-		</Hook>
-	</Hooks>
->>>>>>> 9238715 (Update manifests, add admin settings, rebuild plugin ZIPs)
 </jtlshopplugin>

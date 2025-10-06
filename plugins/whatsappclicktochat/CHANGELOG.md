@@ -1,5 +1,9 @@
 # Değişiklik Günlüğü
 
+## 1.0.2 - 2025-10-06
+- Yönetim panelinde "Ayarlar" eylemini göstermek için admin menüsü eklendi.
+- Yapılandırılabilir alanlar info.xml dosyasında güncellendi.
+
 ## 1.0.1 - 2025-10-06
 - Dağıtım arşivini depodan kaldırarak PR oluşturma hatasını önle.
 
